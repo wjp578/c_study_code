@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1613534856 source:d:\study\±à³ÌÑ§Ï°\c_study_code\2021.2.17\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1613540982 source:d:\study\biancheng\c_study_code\2021.2.17\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+
