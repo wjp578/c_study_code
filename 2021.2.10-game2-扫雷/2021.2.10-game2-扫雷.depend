@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1612952039 source:d:\study\cÓïÑÔÑ§Ï°\2021.2.10-game2-É¨À×\main.c
+	"game.h"
+
+1612951955 source:d:\study\cÓïÑÔÑ§Ï°\2021.2.10-game2-É¨À×\game.c
+	"game.h"
+
+1612952039 d:\study\cÓïÑÔÑ§Ï°\2021.2.10-game2-É¨À×\game.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

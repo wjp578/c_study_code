@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1610707675 source:d:\study\c语言学习\2021.1.15\main.c
+	<stdio.h>
+	<string.h>
+
+1610767959 source:d:\study\c语言学习\2021.1.15\字符长度计算.c
+	<stdio.h>
+	<string.h>
+
