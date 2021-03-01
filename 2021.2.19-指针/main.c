@@ -52,7 +52,13 @@
 //2021.2.27
 
 
+
+
+
 //函数指针实例
+
+
+
 
 
 //int add(int a,int b)
@@ -65,11 +71,22 @@
 //{
 //    int a=3;
 //    int b=5;
-//    int (*p)(int,int)=add;
+//    int (*p)(int,int)=add;//函数名为该函数地址
 //    printf("%d",(*p)(a,b));
 //    return 0;
 //}
 
+//void print(char* str)
+//{
+//    printf("%s",str);
+//}
+//
+//int main()
+//{
+//    void (*pc)(char* )=print;
+//    (*pc)("abcdef");
+//    return 0;
+//}
 
 //两段阴间代码
 //(*(void(*)())0)();
@@ -87,3 +104,89 @@
 
 //23:45
 //2021.2.28
+
+//int add(int a,int b)
+//{
+//    int c=a+b;
+//    return c;
+//}
+//
+//int main()
+//{
+//    int a=3;
+//    int b=5;
+//    int (*p)(int,int)=add;
+//    printf("%d\t",(**p)(a,b));
+//    printf("%d\t",(*p)(a,b));
+//    printf("%d\t",(p)(a,b));
+//    printf("%d\t",p(a,b));
+//    printf("%d\t",add(a,b));
+//    //*  对函数指针没有实质影响
+//    return 0;
+//}
+
+
+
+
+
+//函数指针数组
+
+
+int add(int a,int b)
+{
+    return a+b;
+}
+
+int sub(int a,int b)
+{
+    return a-b;
+}
+
+int mul(int a,int b)
+{
+    return a*b;
+}
+
+int my_div(int a,int b)
+{
+    return a/b;
+}
+
+//int main()
+//{
+//    int a=3;
+//    int b=5;
+////    int i=-1;
+//    int i=0;
+//    int(*parr[4])(int,int)={add,sub,mul,my_div};
+////    while(i++<3)
+////    {
+////        printf("%d\n",parr[i](a,b));
+////
+////    }
+//    while(i<4)
+//        {
+//            printf("%d\n",parr[i](a,b));
+//            i++;
+//        }
+//    return 0;
+//}
+
+//int main()
+//{
+//    int a=3;
+//    int b=5;
+//    int i=-1;
+//    int(*parr[4])(int,int)={add,sub,mul,my_div};
+//    while(++i<4)
+//    {
+//        printf("%d\n",parr[i](a,b));
+//
+//    }
+//    return 0;
+//}
+
+
+
+//P38---40:55
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1614607364 source:d:\study\biancheng\c_study_code\2021.3.1-简易计算器实现\main.c
+	<stdio.h>
+	<stdlib.h>
+
