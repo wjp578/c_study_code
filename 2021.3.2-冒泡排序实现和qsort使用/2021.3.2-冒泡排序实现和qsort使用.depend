@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1614969511 source:d:\study\biancheng\c_study_code\2021.3.2-冒泡排序实现和qsort使用\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
