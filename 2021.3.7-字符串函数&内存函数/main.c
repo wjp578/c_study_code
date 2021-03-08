@@ -71,6 +71,86 @@ char* my_strcat(char* sor,const char* additional)
     return print;
 }
 
+//模拟strcmp我真皀
+//1=2 返回0
+//1<2 返回<0
+//1>2 返回>0
+int my_strcmp(const char* str1,const char* str2)
+{
+    while(*str1==*str2)
+    {
+        if(*str1=='\0')
+        {
+            return 0;
+        }
+        str1++;
+        str2++;
+    }
+    return *str1-*str2;
+}
+
+
+//模拟strncpy
+char* my_strncpy(const char* src,char* des,int num)
+{
+    char* print=des;
+    int i=0;
+    for(i=0;i<num;i++)
+    {
+        if(*src=='\0')
+        {
+            *des++ = '\0';
+        }
+        else
+        {
+            *des++=*src++;
+        }
+
+    }
+    return print;
+}
+
+//模拟strncat
+
+char* my_strncat(char* src,char* add,int num)
+{
+    char* print=src;
+    while(*src!='\0')
+    {
+        src++;
+    }
+    while(num&&*add!='\0')
+    {
+        num--;
+        *src=*add;
+        src++;
+        add++;
+    }
+    *src='\0';
+    return print;
+}
+
+//模拟strncmp
+
+int my_strncmp(const char* str1,const char* str2,int num)
+{
+    while(num&&*str1==*str2)
+    {
+
+        str1++;
+        str2++;
+        num--;
+    }
+    if(num==0)
+    {
+        return 0;
+    }
+    else
+    {
+        return *str1-*str2;
+    }
+}
+
 int main()
 {
 //    char arr[]="abcdefg";
@@ -100,7 +180,38 @@ int main()
 
     char ch1[10]="abc";
     char ch2[]="def";
-    printf("%s",my_strcat(ch1,ch2));
+    char ch3[]="abc";
+    char ch4[]="zzzzzz";
+    char ch5[]="***";
+    char ch6[]="zzzyyy";
+
+//    printf("%s",my_strcat(ch1,ch2));
+
+    //strcmp
+//    printf("%d\n",my_strcmp(ch1,ch5));
+//    if(my_strcmp(ch1,ch5)<0)
+//    {
+//        printf("%d %d\n",my_strlen_1(ch1),my_strlen_1(ch4));
+//    }
+//    else if(my_strcmp(ch1,ch5)==0)
+//    {
+//        printf("%s\n",my_strcpy(ch5,ch3));
+//    }
+//    else
+//    {
+//        printf("%s\n",my_strcat(ch1,ch2));
+//    }
+
+//    printf("%s\n",my_strcpy(ch1,ch4));    //abc
+//    printf("%s\n",my_strncpy(ch1,ch4,2));   //2--abzzzz;3--abczzz
+
+//    printf("%s\n",my_strncat(ch1,ch4,1));
+//    printf("%d\n",my_strlen_1(ch1));
+
+//     printf("%d\n",my_strncmp(ch4,ch6,2));
+
+//      p54 -- 13:20
+
     return 0;
 }
 
