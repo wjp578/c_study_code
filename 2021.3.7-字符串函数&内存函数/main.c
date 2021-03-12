@@ -214,6 +214,13 @@ void* my_memmove(const void* str1,const void* str2,int size)
     return 0;
 }
 
+typedef struct student
+{
+    char name[20];
+    int no;
+}stu;
+
+
 int main()
 {
 //    char arr[]="abcdefg";
@@ -306,16 +313,11 @@ int main()
 //    {
 //        printf("%d ",arr1[i]);
 ////        printf("%d ",arr2[i]);
-    }
+//    }
 //
-//    typedef struct student
-//    {
-//        char name[20];
-//        int no;
-//    }stu;
-//    stu s1[]={{"zhangsan",19},{"wangwu",21}};
-//    stu s2[3]={0};
-//    my_memcpy(s1,s2,sizeof(s1));
+    stu s1[]={{"zhangsan",19},{"wangwu",21}};
+    stu s2[3]={0};
+    my_memcpy(s1,s2,sizeof(s1));
 
     return 0;
 }

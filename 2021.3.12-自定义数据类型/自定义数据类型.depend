@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1615539210 source:d:\study\biancheng\c_study_code\自定义数据类型\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+
