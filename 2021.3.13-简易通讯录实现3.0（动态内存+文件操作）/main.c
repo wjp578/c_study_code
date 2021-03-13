@@ -72,3 +72,17 @@ int main()
     }while(input);
     return 0;
 }
+
+//int* test()
+//{
+//    static int a=10;
+//    return &a;
+//}
+//
+//int main()
+//{
+//    int* p=test();
+//    *p=20;
+//    printf("%d",*p);
+//    return 0;
+//}
