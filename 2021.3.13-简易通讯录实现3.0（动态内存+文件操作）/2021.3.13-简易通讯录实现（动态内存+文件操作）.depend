@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1615642371 source:d:\study\biancheng\c_study_code\2021.3.13-简易通讯录实现（动态内存+文件操作）\main.c
+	"contact.h"
+
+1615643795 d:\study\biancheng\c_study_code\2021.3.13-简易通讯录实现（动态内存+文件操作）\contact.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+
+1615644636 source:d:\study\biancheng\c_study_code\2021.3.13-简易通讯录实现（动态内存+文件操作）\contacts.c
+	"contact.h"
+
+1615645546 source:d:\study\biancheng\c_study_code\2021.3.13-简易通讯录实现3.0（动态内存+文件操作）\contacts.c
+	"contact.h"
+
+1615643795 d:\study\biancheng\c_study_code\2021.3.13-简易通讯录实现3.0（动态内存+文件操作）\contact.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+
+1615644743 source:d:\study\biancheng\c_study_code\2021.3.13-简易通讯录实现3.0（动态内存+文件操作）\main.c
+	"contact.h"
+

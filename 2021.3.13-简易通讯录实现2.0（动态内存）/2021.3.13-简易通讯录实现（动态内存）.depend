@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1615631887 source:d:\study\biancheng\c_study_code\2021.3.13-简易通讯录实现（动态内存）\main.c
+	"contact.h"
+
+1615631707 d:\study\biancheng\c_study_code\2021.3.13-简易通讯录实现（动态内存）\contact.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1615645164 source:d:\study\biancheng\c_study_code\2021.3.13-简易通讯录实现（动态内存）\contacts.c
+	"contact.h"
+
