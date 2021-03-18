@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1547124816 source:d:\study\biancheng\c_study_code\2021.3.15-学生成绩管理系统\未命名1.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<process.h>
+	<ctype.h>
+
+1547125415 source:d:\study\biancheng\c_study_code\2021.3.15-学生成绩管理系统\keshe.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1547125415 source:d:\study\biancheng\c_study_code\2021.3.15-学生成绩管理系统\keshe.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
