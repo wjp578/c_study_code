@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1616077770 source:d:\study\biancheng\c_study_code_local\2021.3.18-homework-p46\5th.c
+	"homework.h"
+
+1616074319 d:\study\biancheng\c_study_code_local\2021.3.18-homework-p46\homework.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1616065562 source:d:\study\biancheng\c_study_code_local\2021.3.18-homework-p46\6th.c
+	"homework.h"
+
+1616074319 source:d:\study\biancheng\c_study_code_local\2021.3.18-homework-p46\7th.c
+	"homework.h"
+
+1616079452 source:d:\study\biancheng\c_study_code_local\2021.3.18-homework-p46\8th.c
+	"homework.h"
+
+1616078974 source:d:\study\biancheng\c_study_code_local\2021.3.18-homework-p46\main.c
+	"homework.h"
+
