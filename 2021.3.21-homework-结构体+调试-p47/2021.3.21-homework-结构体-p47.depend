@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1616327849 source:d:\study\biancheng\c_study_code_local\2021.3.21-homework-结构体-p47\drinksoda.c
+	"head.h"
+
+1616326919 d:\study\biancheng\c_study_code_local\2021.3.21-homework-结构体-p47\head.h
+	<stdio.h>
+	<stdlib.h>
+
+1616326919 source:d:\study\biancheng\c_study_code_local\2021.3.21-homework-结构体-p47\main.c
+	"head.h"
+
+1616327883 source:d:\study\biancheng\c_study_code_local\2021.3.21-homework-结构体+调试-p47\drinksoda.c
+	"head.h"
+
+1616328844 d:\study\biancheng\c_study_code_local\2021.3.21-homework-结构体+调试-p47\head.h
+	<stdio.h>
+	<stdlib.h>
+
+1616333389 source:d:\study\biancheng\c_study_code_local\2021.3.21-homework-结构体+调试-p47\elementdisplacement.c
+	"head.h"
+
+1616328854 source:d:\study\biancheng\c_study_code_local\2021.3.21-homework-结构体+调试-p47\main.c
+	"head.h"
+
