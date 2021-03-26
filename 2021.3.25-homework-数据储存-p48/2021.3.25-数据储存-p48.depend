@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1616752521 source:d:\study\biancheng\c_study_code_local\2021.3.25-homework-数据储存-p48\main.c
+	"head.h"
+
+1616756615 d:\study\biancheng\c_study_code_local\2021.3.25-homework-数据储存-p48\head.h
+	<stdio.h>
+	<stdlib.h>
+
+1616694371 source:d:\study\biancheng\c_study_code_local\2021.3.25-homework-数据储存-p48\yhtriangle.c
+	"head.h"
+
+1616752927 source:d:\study\biancheng\c_study_code_local\2021.3.25-homework-数据储存-p48\diving.c
+	"head.h"
+
+1616750519 source:d:\study\biancheng\c_study_code_local\2021.3.25-homework-数据储存-p48\guess killer.c
+	"head.h"
+
