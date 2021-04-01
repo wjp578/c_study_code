@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1617267881 source:d:\study\biancheng\c_study_code\2021.3.31-homework-指针进阶-p50\main.c
+	"pointer.h"
+
+1617268468 d:\study\biancheng\c_study_code\2021.3.31-homework-指针进阶-p50\pointer.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1617268210 source:d:\study\biancheng\c_study_code\2021.3.31-homework-指针进阶-p50\left-handed character.c
+	"pointer.h"
+
+1617268411 source:d:\study\biancheng\c_study_code\2021.3.31-homework-指针进阶-p50\jundge.c
+	"pointer.h"
+
+1617268488 source:d:\study\biancheng\c_study_code\2021.3.31-homework-指针进阶-p50~51\jundge.c
+	"pointer.h"
+
+1617274054 d:\study\biancheng\c_study_code\2021.3.31-homework-指针进阶-p50~51\pointer.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1617268210 source:d:\study\biancheng\c_study_code\2021.3.31-homework-指针进阶-p50~51\left-handed character.c
+	"pointer.h"
+
+1617281978 source:d:\study\biancheng\c_study_code\2021.3.31-homework-指针进阶-p50~51\main.c
+	"pointer.h"
+
+1617281587 source:d:\study\biancheng\c_study_code\2021.3.31-homework-指针进阶-p50~51\young's matrix.c
+	"pointer.h"
+
